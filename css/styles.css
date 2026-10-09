@@ -1,0 +1,141 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Navigation */
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 12px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Repeated section class */
+.content-section {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Unique section using ID selector */
+#hobbies {
+    background-color: #eef5fb;
+}
+
+/* Headings */
+h2 {
+    color: #1f4e79;
+}
+
+h3 {
+    color: #333;
+}
+
+/* Lists */
+li {
+    margin-bottom: 8px;
+}
+
+/* Photo gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery figure {
+    width: 280px;
+    margin: 0;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* Video */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 400px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+body, main, section, h2, p, label, li {
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #eeeeee;
+}

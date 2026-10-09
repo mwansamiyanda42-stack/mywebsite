@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mwansa Miyanda - Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <p>Mwansa Miyanda | Student ID: 202512755</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#learning">Learning Plan</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">My Media</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.w3schools.com/html/" target="_blank">Learn HTML</a>
+            
+    </nav>
+
+    <main>
+        <section id="intro" class="content-section">
+    <h2>Hello, I'm Mwansa Miyanda</h2>
+    <p><strong>Programme:</strong> Computer Science, Mulungushi University</p>
+    <p>I am a student who loves technology, programming and web development. This website shows what I am learning.</p>
+    <a class="button" href="#projects">View My Projects</a>
+</section>
+
+        <!-- ABOUT ME -->
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+
+            <p>
+                My name is Mwansa Miyanda and I am a Computer Science student.
+                I am interested in technology, programming and web development.
+                I enjoy learning new computer skills and improving my ability
+                to create useful websites. I also enjoy playing soccer,
+                coding and listening to music. My goal is to become more
+                confident in web technologies and develop websites that are
+                useful, creative and easy for people to use.
+            </p>
+        </section>
+
+
+        <!-- HOBBIES -->
+        <section id="hobbies" class="content-section">
+            <h2>My Hobbies</h2>
+
+            <ul>
+                <li>Coding</li>
+                <li>Soccer</li>
+                <li>Listening to Music</li>
+            </ul>
+        </section>
+
+
+        <!-- LEARNING PLAN -->
+        <section id="learning" class="content-section">
+            <h2>My Learning Plan</h2>
+
+            <h3>Steps I Will Take to Improve My Web Skills</h3>
+
+            <ol>
+                <li>Practice HTML and CSS regularly.</li>
+                <li>Build small websites to improve my practical skills.</li>
+                <li>Learn JavaScript and use it to make websites interactive.</li>
+            </ol>
+
+            <table>
+                <caption>My Weekly Web Learning Plan</caption>
+
+                <tr>
+                    <th>Day</th>
+                    <th>Topic</th>
+                    <th>Practice Task</th>
+                </tr>
+
+                <tr>
+                    <td>Monday</td>
+                    <td>HTML</td>
+                    <td>Create and structure a webpage</td>
+                </tr>
+
+                <tr>
+                    <td>Wednesday</td>
+                    <td>CSS</td>
+                    <td>Style a webpage</td>
+                </tr>
+
+                <tr>
+                    <td>Friday</td>
+                    <td>JavaScript</td>
+                    <td>Create a simple interactive feature</td>
+                </tr>
+            </table>
+        </section>
+
+
+        <!-- PHOTOS -->
+        <section id="photos" class="content-section">
+            <h2>My Photos</h2>
+
+            <div class="gallery">
+
+                <figure>
+                    <img src="images/photo1.jpeg" alt="Photo of Mwansa Miyanda">
+                    <figcaption>One of my favourite personal photos.</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/photo2.jpeg" alt="A photo related to my hobbies">
+                    <figcaption>A photo related to one of my hobbies.</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/photo3.jpeg" alt="A photo representing my student life">
+                    <figcaption>A photo representing my student life.</figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+
+        <!-- MEDIA -->
+        <section id="media" class="content-section">
+            <h2>My Media</h2>
+
+             <video controls width="500">
+                <source src="videos/video1.mp4"
+                type="video/mp4">
+                Your browser does not support the video tag>
+
+            <h3>My Self-Introduction Video</h3>
+
+            <video controls>
+                <source src="videos/intro.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+
+            <p>
+                In this video, I introduce myself, my programme and one web
+                development skill that I hope to learn.
+            </p>
+
+            <h3>My Audio Recording</h3>
+
+            <audio controls>
+                <source src="videos/voice.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+
+            <p>
+                This recording describes one of my hobbies and explains why
+                I am interested in web technologies.
+            </p>
+        </section>
+<section id="projects" class="content-section">
+    <h2>Projects and Skills</h2>
+
+    <input type="text" id="project-search" placeholder="Search projects...">
+    <button type="button" id="search-reset">Reset</button>
+    <p id="search-message"></p>
+
+    <div class="project">
+        <h3>Personal Website</h3>
+        <p>I built this site using HTML5 and CSS to introduce myself.</p>
+    </div>
+
+    <div class="project">
+        <h3>Contact Form</h3>
+        <p>I learned how to create labelled form controls with validation.</p>
+    </div>
+
+    <div class="project">
+        <h3>Media Page</h3>
+        <p>I learned how to add photos, video and audio to a web page.</p>
+    </div>
+</section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="content-section">
+            <h2>Contact</h2>
+            <ul>
+    <li>Email: mwansamiyanda42@gmail.com</li>
+    <li>Phone: +260 9755 81074</li>
+    <li>Name: Mwansa Miyanda</li>
+</ul>
+
+
+            <p>
+                Browser demonstration only. No message is sent.
+            </p>
+
+            <form action="#" method="post">
+
+                <label for="name">name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="topic">topic:</label>
+                <input type="text" id="topic" name="topic">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+            <div id="form-result"></div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        
+    <p>&copy; 2026 Mwansa Miyanda. All rights reserved.</p>
+    <p><a href="https://github.com/YOUR-USERNAME/YOUR-REPO">View Source on GitHub</a></p>
+
+    </footer>
+    <script src="js/script.js" defer></script>
+
+
+</body>
+</html>
